@@ -7,7 +7,7 @@ export const fetchData = async (country) => {
 
   if (country) {
     changeableUrl = `${url}/countries/${country}`;
-  }
+  }lslcgit
 
   try {
     const { data: { confirmed, recovered, deaths, lastUpdate } } = await axios.get(changeableUrl);
